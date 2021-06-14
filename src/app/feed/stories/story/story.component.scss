@@ -1,0 +1,31 @@
+img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid #a46bff;
+    border-radius: 50%;
+}
+
+.new {
+    position: relative;
+    &::before {
+        content: "+";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 96%;
+        height: 96%;
+        background: rgba(0, 0, 0, .5);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 30px;
+    }
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+}

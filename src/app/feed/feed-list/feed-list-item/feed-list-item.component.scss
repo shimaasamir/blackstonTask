@@ -1,0 +1,33 @@
+.feedItem {
+    margin-bottom: 30px;
+    // width: 48%;
+    .mainImage {
+        border: 2px solid #fff;
+        border-radius: 20px;
+        margin-bottom: 25px;
+    }
+    .authDetails {
+        display: flex;
+        align-items: center;
+        img {
+            width: 40px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        h5 {
+            margin: 0;
+            text-transform: capitalize;
+        }
+    }
+    .likesComments {
+        font-size: 20px;
+        color: #a4b6e1;
+        i {
+            margin-right: .5rem;
+        }
+        .likes {
+            margin-right: 2rem;
+        }
+    }
+}

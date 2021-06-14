@@ -1,0 +1,14 @@
+<div class="suggestionItem">
+    <img src="https://randomuser.me/api/portraits/men/0.jpg" />
+    <div class="suggestionDetails">
+        <h6>
+            User Name
+        </h6>
+        <p>
+            @username
+        </p>
+    </div>
+    <button class="followBtn" [ngClass]="followed?'followed':''">
+    {{followed ? 'Followed' : "Follow" }}
+  </button>
+</div>

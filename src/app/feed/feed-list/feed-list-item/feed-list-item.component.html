@@ -1,0 +1,17 @@
+<div class="feedItem">
+    <img class="img-fluid mainImage" [src]="ImagePath" />
+    <div class="d-flex align-items-center justify-content-between">
+        <div class="authDetails">
+            <img [src]="authImagePath" />
+            <h5>{{authName}}</h5>
+        </div>
+        <div class="d-flex likesComments">
+            <div class="likes ">
+                <i class="fas fa-heart"></i> {{likes}}
+            </div>
+            <div class="comments">
+                <i class="fas fa-comment-dots"></i> {{comments}}
+            </div>
+        </div>
+    </div>
+</div>

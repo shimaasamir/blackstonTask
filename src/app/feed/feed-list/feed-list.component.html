@@ -1,0 +1,8 @@
+<h2 class="d-flex align-items-center justify-content-between mb-3">
+    Feed
+    <app-filter></app-filter>
+</h2>
+<div class="d-flex flex-wrap justify-content-between">
+    <app-feed-list-item *ngFor="let feed of feedList;index as i" [ImagePath]="feed.imagePath" [authImagePath]='feed.authImagePath' [authName]='feed.authName' [likes]='feed.likes' [comments]='feed.comments'>
+    </app-feed-list-item>
+</div>
